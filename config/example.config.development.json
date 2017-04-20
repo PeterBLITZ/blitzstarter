@@ -1,0 +1,27 @@
+{
+  "port": 3000,
+  "mongoose": {
+    "uri": "mongodb://localhost/blitzstarter",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "session": {
+    "secret": "S3cr31",
+    "name": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  },
+  "facebook": {
+    "FACEBOOK_APP_ID": "",
+    "FACEBOOK_APP_SECRET": "",
+    "FACEBOOK_CALLBACK_URL": "http://localhost:3000"
+  }
+}
