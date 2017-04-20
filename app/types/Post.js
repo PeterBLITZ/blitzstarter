@@ -1,0 +1,6 @@
+export const ADD_LIKE = 'ADD_LIKE';
+export const ADD_LIKE_SUCCESS = 'ADD_LIKE_SUCCESS';
+export const ADD_LIKE_FAIL = 'ADD_LIKE_FAIL';
+export const ADD_DISLIKE = 'ADD_DISLIKE';
+export const ADD_DISLIKE_SUCCESS = 'ADD_DISLIKE_SUCCESS';
+export const ADD_DISLIKE_FAIL = 'ADD_DISLIKE_FAIL';
